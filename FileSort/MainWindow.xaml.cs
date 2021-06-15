@@ -117,8 +117,8 @@ namespace FileSort
             {
                 if (SortPath.Text != "" && DocPath.Text != "")
                 {
-                    string ext = ".mp4 .mov";
-                    Sorter sorter = new Sorter(ext, SortPath.Text, DocPath.Text);
+                    string ext = ".mp4 .mov .mkv";
+                    Sorter sorter = new Sorter(ext, SortPath.Text, VideoPath.Text);
                     sorter.Sort();
                 }
             }
@@ -134,8 +134,8 @@ namespace FileSort
             {
                 if (SortPath.Text != "" && DocPath.Text != "")
                 {
-                    string ext = ".png .jpeg";
-                    Sorter sorter = new Sorter(ext, SortPath.Text, DocPath.Text);
+                    string ext = ".png .jpeg .jpg";
+                    Sorter sorter = new Sorter(ext, SortPath.Text, FotoPath.Text);
                     sorter.Sort();
                 }
             }

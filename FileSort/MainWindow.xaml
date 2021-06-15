@@ -8,11 +8,11 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Label Content="Путь к папке для сортировки" HorizontalAlignment="Left" Margin="39,22,0,0" VerticalAlignment="Top" Width="172"/>
-        <TextBox x:Name="SortPath" HorizontalAlignment="Left" Height="23" Margin="39,48,0,0" TextWrapping="Wrap" Text="C:\Users\Михаил\Downloads\" VerticalAlignment="Top" Width="404"/>
+        <TextBox x:Name="SortPath" HorizontalAlignment="Left" Height="23" Margin="39,48,0,0" TextWrapping="Wrap" Text="D:\Downloads" VerticalAlignment="Top" Width="404"/>
         <Label Content="Папка для видео" HorizontalAlignment="Left" Margin="39,96,0,0" VerticalAlignment="Top" Width="172"/>
-        <TextBox x:Name="VideoPath" HorizontalAlignment="Left" Height="23" Margin="39,122,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="404"/>
+        <TextBox x:Name="VideoPath" HorizontalAlignment="Left" Height="23" Margin="39,122,0,0" TextWrapping="Wrap" Text="D:\Видео" VerticalAlignment="Top" Width="404"/>
         <Label Content="Папка для фото" HorizontalAlignment="Left" Margin="39,172,0,0" VerticalAlignment="Top" Width="172"/>
-        <TextBox x:Name="FotoPath" HorizontalAlignment="Left" Height="23" Margin="39,198,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="404"/>
+        <TextBox x:Name="FotoPath" HorizontalAlignment="Left" Height="23" Margin="39,198,0,0" TextWrapping="Wrap" Text="D:\Фото" VerticalAlignment="Top" Width="404"/>
         <Label Content="Папка для документов" HorizontalAlignment="Left" Margin="39,252,0,0" VerticalAlignment="Top" Width="172"/>
         <TextBox x:Name="DocPath" HorizontalAlignment="Left" Height="23" Margin="39,278,0,0" TextWrapping="Wrap" Text="D:\Documents\" VerticalAlignment="Top" Width="404"/>
         <Button Content="Обзор" HorizontalAlignment="Left" Margin="485,48,0,0" VerticalAlignment="Top" Width="87" Click="Button1_Click" Height="23"/>
